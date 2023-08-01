@@ -50,6 +50,21 @@ p{
 
 }
 
+.bottom{
+    position: relative;
+}
+
+#bot{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+span{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -60,7 +75,7 @@ h2{
     
   }
 h5{
-    padding: 1%;
+    padding: 2%;
     font-family: MyCustomFont2, Arial, sans-serif;
 
 }
