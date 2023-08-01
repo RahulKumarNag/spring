@@ -1,0 +1,82 @@
+body {
+    margin:1%;
+    padding:1%
+}
+
+
+@font-face {
+  font-family: MyCustomFont;
+  src: url(organic_relief/OrganicRelief.ttf);
+}
+
+@font-face {
+  font-family: MyCustomFont2;
+  src: url(creato_display/CreatoDisplay-Medium.otf);
+}
+
+h1 {
+    font-family: MyCustomFont, Arial, sans-serif;
+    line-height: 2;
+  
+  }
+
+  .header {
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 7em;
+
+}
+
+.container{
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+p{
+    font-size: 1.5em;
+    font-family: 'Niramit', sans-serif;
+}
+
+#me{
+    text-align: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    
+  }
+h5{
+    padding: 1%;
+    font-family: MyCustomFont2, Arial, sans-serif;
+
+}
+
+#sub{
+    font-size: 1.5em;
+}
+
+@media (min-width: 481px) and (max-width: 1120px){
+    h1 {
+        text-align: left;
+        font-size: 5em;
+    
+    }
+    p{
+        font-size: 1.2em;
+        font-family: 'Niramit', sans-serif;
+    }
+}
